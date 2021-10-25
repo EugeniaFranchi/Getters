@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://euge:1234@cluster0.b2f7j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "mongodb+srv://root:root123*@cluster0.zf9fl.mongodb.net/chatbotF1?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useFindAndModify: false,
